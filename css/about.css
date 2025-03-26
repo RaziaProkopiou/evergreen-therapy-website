@@ -1,0 +1,33 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background-image: url("../assets/images/about-page-image.png");
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  padding: 130px 14%;
+  color: var(--text-colour-dark);
+}
+
+.about-us-content {
+  z-index: 1;
+  width: 100%;
+  padding: 20px;
+}
+
+.about-us-content p {
+  margin-bottom: 24px;
+}
+
+.about-us-content h1 {
+  margin-bottom: 24px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+  .about-us {
+    padding: 130px 5%;
+  }
+}
