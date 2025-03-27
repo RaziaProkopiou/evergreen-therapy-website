@@ -124,7 +124,7 @@
           If you have any questions, please fill out the form below, and we will
           get back to you as soon as possible.
         </p>
-        <form action="#" method="post">
+        <form id="contact-form">
           <label for="name">Name</label>
           <input
             type="text"
@@ -160,8 +160,15 @@
             required
           ></textarea>
 
-          <button class="btn btn-primary" type="submit">Send</button>
+            <!-- Honeypot (Spam Prevention - Hidden Field) -->
+            <input type="text" name="honeypot" style="display: none;" aria-hidden="true" />
+
+            <button id="submit-button" class="btn btn-primary" type="submit">
+              <span id="button-text">Send</span>
+              <span id="loader" class="loader" style="display: none;"></span>
+            </button>
         </form>
+        <p id="status-message"></p> <!-- Feedback message for success/error -->
       </div>
     </section>
 
@@ -229,5 +236,7 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   </body>
 </html>
