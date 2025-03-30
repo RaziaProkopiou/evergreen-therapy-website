@@ -231,6 +231,9 @@ body {
   font-weight: bold;
   color: var(--text-colour-light);
 }
+.footer-contact p {
+  margin-bottom: 18px;
+}
 .footer-contact address {
   margin: 0;
   font-style: normal;
