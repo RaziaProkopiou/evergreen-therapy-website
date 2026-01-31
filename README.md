@@ -55,29 +55,6 @@ evergreen-therapy-website/
 └── README.md           # This file
 ```
 
-## Getting Started
-
-### Prerequisites
-
-- A modern web browser (Chrome, Firefox, Safari, Edge)
-- No server required - this is a static website
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/RaziaProkopiou/evergreen-therapy-website.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd evergreen-therapy-website
-   ```
-
-3. Open `index.html` in your web browser to view the website.
-
 
 ## Notes
 
